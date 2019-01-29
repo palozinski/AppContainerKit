@@ -1,0 +1,6 @@
+framework module Pods_AppContainerKit {
+  umbrella header "Pods-AppContainerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
