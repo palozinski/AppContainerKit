@@ -2,7 +2,7 @@
 
 ![alt tag](https://raw.githubusercontent.com/palozinski/AppContainerKit/master/AppContainerKitDIExample.gif)
 
-AppContainerKit is reusable component that allows make smoothy transitions beetwen two minor views flow (Authorization and Main flow when user is logged or Authorization and Some walkthrought etc.).
+AppContainerKit is a reusable component that allows to make smoothy transitions beetwen two major view controller. (Authorization and Main or Authorization and Some Walkthrought etc.).
 
 # How do I contribute?
 
@@ -41,14 +41,13 @@ $ bundle exec pod install
 
 # Featuers
 
-Create class in my Example with `Swinject` it is `WindowController`
-Class have to extend `AKPWindowController` there is important function.
+Create class that inherit from `AKPWindowController`
 
 Implement protocol `ACKDelegate` with criteria for presenting primary container:
 - `func shouldPresentPrimaryViewController() -> Bool`
 
-Implement protocol `ACKUIDelegate` where you provide for App Container your view controllers:
-- `func launchScreenViewController() -> UIViewController?` - allows for keep your brand during the transitions
+Implement protocol `ACKUIDelegate` where you provide your your view controllers for App Container:
+- `func launchScreenViewController() -> UIViewController?` - allows to keep your brand during the transitions
 - `func primaryViewController() -> UIViewController?` - returns view controller for primary container
 - `func secondaryViewController() -> UIViewController?` - returns view controller for secondary container
 
