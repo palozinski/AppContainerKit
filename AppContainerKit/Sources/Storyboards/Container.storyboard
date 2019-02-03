@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="faN-Ra-N3p">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Screen View Controller-->
+        <scene sceneID="8bW-x9-cC8">
+            <objects>
+                <viewController id="C7i-k1-iER" customClass="ACKLaunchScreenViewController" customModule="AppContainerKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="54B-n3-CSx" customClass="ACKContainerView" customModule="AppContainerKit" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="o1R-0G-hce"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Umj-wg-t9X"/>
+                    <connections>
+                        <segue destination="2b6-wF-D6Z" kind="presentation" identifier="primary" modalTransitionStyle="crossDissolve" id="3v1-uQ-vdQ"/>
+                        <segue destination="51K-a7-8RD" kind="presentation" identifier="secondary" modalTransitionStyle="crossDissolve" id="lwu-wc-uQy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BcV-EB-KQ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1119.2" y="52.623688155922046"/>
+        </scene>
+        <!--Primary View Container View Controller-->
+        <scene sceneID="4Zw-JL-GRX">
+            <objects>
+                <viewController id="2b6-wF-D6Z" customClass="ACKPrimaryViewContainerViewController" customModule="AppContainerKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="snd-Rk-2hu" customClass="ACKContainerView" customModule="AppContainerKit" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="b4h-wc-kaB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NCR-LU-TEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1921" y="-336"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="l0l-bO-Yj1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="faN-Ra-N3p" customClass="ACKNavigationController" customModule="AppContainerKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GVx-gU-hfk">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="C7i-k1-iER" kind="relationship" relationship="rootViewController" id="wAI-f4-e07"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="li4-io-PQS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="367" y="53"/>
+        </scene>
+        <!--Secondary View Container View Controller-->
+        <scene sceneID="8aE-4B-ikd">
+            <objects>
+                <viewController id="51K-a7-8RD" customClass="ACKSecondaryViewContainerViewController" customModule="AppContainerKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cat-cW-jXA" customClass="ACKContainerView" customModule="AppContainerKit" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aNy-Zd-2qN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRV-uY-EQi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1921" y="374"/>
+        </scene>
+    </scenes>
+</document>

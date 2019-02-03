@@ -1,16 +1,41 @@
 PODS:
+  - AppContainerKit (0.1.0)
+  - MarkdownView (1.5.0)
   - SwiftLint (0.30.1)
+  - Swinject (2.5.0)
+  - SwinjectAutoregistration (2.5.1):
+    - Swinject (~> 2.5)
+  - SwinjectStoryboard (2.1.0):
+    - Swinject (~> 2.5)
 
 DEPENDENCIES:
+  - AppContainerKit (from `/Users/pawellozinski/code/AppContainerKit`)
+  - MarkdownView
   - SwiftLint
+  - Swinject
+  - SwinjectAutoregistration
+  - SwinjectStoryboard
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - MarkdownView
     - SwiftLint
+    - Swinject
+    - SwinjectAutoregistration
+    - SwinjectStoryboard
+
+EXTERNAL SOURCES:
+  AppContainerKit:
+    :path: "/Users/pawellozinski/code/AppContainerKit"
 
 SPEC CHECKSUMS:
+  AppContainerKit: 9ad6c99497d9585ed778822aac2b8933db029985
+  MarkdownView: 5bbee438c823db1cd189002d44c84fa909b3a896
   SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
+  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
+  SwinjectAutoregistration: f72bf894cbd2ee4a9153e00fa5208e93fb44d283
+  SwinjectStoryboard: 688f096033103e66ffcf6ca678211acd7d7be505
 
-PODFILE CHECKSUM: 472ef88534a53dfc13cdfb2509579a20050aebb7
+PODFILE CHECKSUM: af1fda903ff3222f44ae0963226c7f12f54fe0b2
 
 COCOAPODS: 1.5.3

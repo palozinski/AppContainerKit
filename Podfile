@@ -6,3 +6,14 @@ target 'AppContainerKit' do
   use_frameworks!
   pod 'SwiftLint'
 end
+
+target 'AppContainerKitDISwiftExample' do
+    use_frameworks!
+    pod 'SwiftLint'
+    pod 'MarkdownView'
+    pod 'Swinject'
+    pod 'SwinjectStoryboard'
+    pod 'SwinjectAutoregistration'
+    
+    pod 'AppContainerKit', :path => '/Users/pawellozinski/code/AppContainerKit'
+end

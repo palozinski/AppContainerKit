@@ -1,0 +1,6 @@
+framework module AppContainerKit {
+  umbrella header "AppContainerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
