@@ -1,5 +1,7 @@
 # AppContainerKit
 
+![alt tag](https://raw.githubusercontent.com/palozinski/AppContainerKit/master/AppContainerKitDIExample.gif)
+
 AppContainerKit is reusable component that allows make smoothy transitions beetwen two minor views flow (Authorization and Main flow when user is logged or Authorization and Some walkthrought etc.).
 
 # How do I contribute?
