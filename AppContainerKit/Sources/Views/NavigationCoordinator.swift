@@ -2,7 +2,11 @@ import UIKit
 
 final class NavigationCoordinator: NSObject, UINavigationControllerDelegate {
     
+    // MARK: - Properties
+    
     var nextAnimation: NavigationAnimation = .standard
+    
+    // MARK: - Actions
     
     func navigationController(_ navigationController: UINavigationController,
                               animationControllerFor operation: UINavigationController.Operation,

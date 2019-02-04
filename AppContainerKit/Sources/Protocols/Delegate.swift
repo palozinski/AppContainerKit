@@ -1,3 +1,5 @@
+import UIKit
+
 public protocol ACKDelegate: class {
     func shouldPresentPrimaryViewController() -> Bool
 }

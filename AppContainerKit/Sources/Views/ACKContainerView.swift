@@ -2,8 +2,12 @@ import UIKit
 
 class ACKContainerView: UIView {
     
+    // MARK: - Properties
+    
     @IBInspectable var transitionDuration: Double = 0.3
     private(set) weak var currentChild: UIViewController?
+    
+    // MARK: - Actions
     
     func present(child: UIViewController, onController parent: UIViewController) {
         if currentChild == nil {

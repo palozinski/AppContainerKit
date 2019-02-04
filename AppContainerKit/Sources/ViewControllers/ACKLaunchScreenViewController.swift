@@ -1,6 +1,6 @@
 import UIKit
 
-class ACKLaunchScreenViewController: UIViewController {
+final class ACKLaunchScreenViewController: UIViewController {
     
     private enum ViewState: String {
         case primary

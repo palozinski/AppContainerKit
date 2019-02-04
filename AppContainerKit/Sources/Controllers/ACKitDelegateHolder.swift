@@ -1,5 +1,3 @@
-import UIKit
-
 final class ACKitDelegateHolder {
     private init() {}
     static var instance: ACKitDelegateHolder = ACKitDelegateHolder()

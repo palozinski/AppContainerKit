@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		39A21B2FA4458D102CE783CA /* Pods_AppContainerKitDISwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172FB0926BC368E128C2A3FD /* Pods_AppContainerKitDISwiftExample.framework */; };
 		76E35F5117A46B439DF36F6F /* Pods_AppContainerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6502FC352A7BC9FBDA1E89 /* Pods_AppContainerKit.framework */; };
+		DC0C60FA22083A3B005A1A22 /* CoordinatorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0C60F922083A3B005A1A22 /* CoordinatorContainer.swift */; };
+		DC0C60FC22083A87005A1A22 /* NavigationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0C60FB22083A87005A1A22 /* NavigationAnimation.swift */; };
 		DC39D6662200948000B56E98 /* AppContainerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DC39D6642200948000B56E98 /* AppContainerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC39D68D2200B24700B56E98 /* Container.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC39D68C2200B24700B56E98 /* Container.storyboard */; };
 		DC39D6902200B32200B56E98 /* ACKLaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D68F2200B32200B56E98 /* ACKLaunchScreenViewController.swift */; };
@@ -50,6 +52,8 @@
 		AACE04C278063A6CB0D14DFB /* Pods-AppContainerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppContainerKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppContainerKit/Pods-AppContainerKit.release.xcconfig"; sourceTree = "<group>"; };
 		BCA2431D1C4ECCE75431CC00 /* Pods-AppContainerKitDISwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppContainerKitDISwiftExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppContainerKitDISwiftExample/Pods-AppContainerKitDISwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
 		D613A48B3F21705028EE37B3 /* Pods-AppContainerKitDISwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppContainerKitDISwiftExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppContainerKitDISwiftExample/Pods-AppContainerKitDISwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		DC0C60F922083A3B005A1A22 /* CoordinatorContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorContainer.swift; sourceTree = "<group>"; };
+		DC0C60FB22083A87005A1A22 /* NavigationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAnimation.swift; sourceTree = "<group>"; };
 		DC39D6612200948000B56E98 /* AppContainerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppContainerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC39D6642200948000B56E98 /* AppContainerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppContainerKit.h; sourceTree = "<group>"; };
 		DC39D6652200948000B56E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -196,6 +200,7 @@
 				DC39D6922200B43000B56E98 /* ACKContainerView.swift */,
 				DC39D6C52200EF5000B56E98 /* NavigationCoordinator.swift */,
 				DC39D6C72200EF6F00B56E98 /* FadeTransitionAnimator.swift */,
+				DC0C60FB22083A87005A1A22 /* NavigationAnimation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				DC39D6C32200EE3D00B56E98 /* UIViewController+Coordinator.swift */,
+				DC0C60F922083A3B005A1A22 /* CoordinatorContainer.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -535,6 +541,8 @@
 				DC747CEA220703520041BF63 /* ACKitDelegateHolder.swift in Sources */,
 				DC39D6902200B32200B56E98 /* ACKLaunchScreenViewController.swift in Sources */,
 				DC39D6932200B43000B56E98 /* ACKContainerView.swift in Sources */,
+				DC0C60FC22083A87005A1A22 /* NavigationAnimation.swift in Sources */,
+				DC0C60FA22083A3B005A1A22 /* CoordinatorContainer.swift in Sources */,
 				DC39D6C82200EF6F00B56E98 /* FadeTransitionAnimator.swift in Sources */,
 				DC39D6BE2200EA5B00B56E98 /* ACKNavigationController.swift in Sources */,
 				DC39D6C42200EE3D00B56E98 /* UIViewController+Coordinator.swift in Sources */,
