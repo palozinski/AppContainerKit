@@ -26,6 +26,26 @@ Instead of using local versions of Cocoapods use:
 
 * `open AppContainerKit.xcworkspace`
 
+### How do I release new version of AppContainerKit
+
+* bump version up to VERSION in `AppContainerKit.podspec`
+* use:
+```sh
+$ git tag VERSION
+```
+* push tags:
+```sh
+$ git push --tags
+```
+* register CocoaPods session:
+```sh
+$ pod trunk register EMAIL
+```
+* push `podspec`:
+```sh
+$ pod trunk push AppContainerKit.podspec
+```
+
 # Installation
 
 add `pod 'AppContainerKit'` to your Podfile
