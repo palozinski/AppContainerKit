@@ -12,7 +12,7 @@ final class MainViewController: UIViewController {
     
     var isLogged: Bool = false {
         didSet {
-            storage[UserStorageKey.isLogged.rawValue] = isLogged
+            storage.isLogged = isLogged
         }
     }
     

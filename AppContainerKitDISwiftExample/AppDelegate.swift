@@ -16,9 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication,
+                     willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        resolve(resolver: resolver)
+        observers?.forEach {
+            _ = $0.application?(application, willFinishLaunchingWithOptions: launchOptions)
+        }
+        return true
+    }
+    
+    func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         setupWindow(container: resolver)
         return true
+    }
+    
+    private func resolve(resolver: Resolver) {
+        Container.loggingFunction = nil
+        observers = resolver.resolve([UIApplicationDelegate].self,
+                                     name: AssemblyCenter.Keys.appDelegateObserver.rawValue)
     }
     
     private func setupWindow(container: Resolver) {

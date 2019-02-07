@@ -27,7 +27,7 @@ final class LoginViewController: UIViewController {
     
     var isLogged: Bool = false {
         didSet {
-            storage[UserStorageKey.isLogged.rawValue] = isLogged
+            storage.isLogged = isLogged
         }
     }
     

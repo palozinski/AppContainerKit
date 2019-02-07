@@ -9,8 +9,7 @@ final class WindowController: APKWindowController,
     // MARK: - Properties
     
     private var isLogged: Bool {
-        let value = storage.object(key: UserStorageKey.isLogged.rawValue) as? Bool
-        return value ?? false
+        return storage.isLogged
     }
     
     // MARK: - Initialized
