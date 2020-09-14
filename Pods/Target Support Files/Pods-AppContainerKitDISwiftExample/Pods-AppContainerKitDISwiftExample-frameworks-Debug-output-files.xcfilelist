@@ -1,0 +1,5 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppContainerKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarkdownView.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectAutoregistration.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework

@@ -17,7 +17,7 @@ DEPENDENCIES:
   - SwinjectStoryboard
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - MarkdownView
     - SwiftLint
     - Swinject
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "/Users/pawellozinski/code/AppContainerKit"
 
 SPEC CHECKSUMS:
-  AppContainerKit: 3fef908c1c0adc282d9068d7b62ac88c11ac7a6b
+  AppContainerKit: 31ceceb28c42ee471fe021d8cccd9d4a63a0acd1
   MarkdownView: 5bbee438c823db1cd189002d44c84fa909b3a896
   SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
   Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
@@ -38,4 +38,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: af1fda903ff3222f44ae0963226c7f12f54fe0b2
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.9.3
