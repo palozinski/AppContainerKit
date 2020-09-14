@@ -1,10 +1,10 @@
 import UIKit
 
-public protocol ACKDelegate: class {
+public protocol Delegate: class {
     func shouldPresentPrimaryViewController() -> Bool
 }
 
-public protocol ACKUIDelegate: class {
+public protocol UIDelegate: class {
     func launchScreenViewController() -> UIViewController?
     func primaryViewController() -> UIViewController?
     func secondaryViewController() -> UIViewController?

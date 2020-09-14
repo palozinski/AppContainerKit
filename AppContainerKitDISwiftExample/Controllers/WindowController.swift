@@ -2,9 +2,9 @@ import UIKit
 import AppContainerKit
 import SwinjectStoryboard
 
-final class WindowController: APKWindowController,
-                              ACKDelegate,
-                              ACKUIDelegate {
+final class WindowController: AppContainerKit.WindowController,
+                              Delegate,
+                              UIDelegate {
     
     // MARK: - Properties
     
