@@ -61,12 +61,12 @@ $ bundle exec pod install
 
 # Featuers
 
-Create class that inherit from `AKPWindowController`
+Create class that inherit from `WindowController`
 
-Implement protocol `ACKDelegate` with criteria for presenting primary container:
+Implement protocol `Delegate` with criteria for presenting primary container:
 - `func shouldPresentPrimaryViewController() -> Bool`
 
-Implement protocol `ACKUIDelegate` where you provide your your view controllers for App Container:
+Implement protocol `UIDelegate` where you provide your your view controllers for App Container:
 - `func launchScreenViewController() -> UIViewController?` - allows to keep your brand during the transitions
 - `func primaryViewController() -> UIViewController?` - returns view controller for primary container
 - `func secondaryViewController() -> UIViewController?` - returns view controller for secondary container
