@@ -2,7 +2,7 @@ PODS:
   - AppContainerKit (0.1.2)
   - MarkdownView (1.6.0)
   - SwiftLint (0.40.2)
-  - Swinject (2.5.0)
+  - Swinject (2.6.2)
   - SwinjectAutoregistration (2.5.1):
     - Swinject (~> 2.5)
   - SwinjectStoryboard (2.1.0):
@@ -32,10 +32,10 @@ SPEC CHECKSUMS:
   AppContainerKit: 31ceceb28c42ee471fe021d8cccd9d4a63a0acd1
   MarkdownView: 25c1c2d7ff9706624a575556296e188be3dd3f6b
   SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
-  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
+  Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1
   SwinjectAutoregistration: f72bf894cbd2ee4a9153e00fa5208e93fb44d283
   SwinjectStoryboard: 688f096033103e66ffcf6ca678211acd7d7be505
 
-PODFILE CHECKSUM: af1fda903ff3222f44ae0963226c7f12f54fe0b2
+PODFILE CHECKSUM: 947fe543d0a1e0195a0589a0f46f9bff37c0a05e
 
 COCOAPODS: 1.9.3
