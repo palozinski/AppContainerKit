@@ -1,6 +1,6 @@
 import UIKit
 
-open class APKWindowController {
+open class WindowController {
     
     // MARK: - Initializers
     

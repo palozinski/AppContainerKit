@@ -1,18 +1,19 @@
 import UIKit
 
-final public class ACKNavigationController: UINavigationController, CoordinatorContainer {
+final public class NavigationController: UINavigationController,
+                                         CoordinatorContainer {
     
     // MARK: - Properties
     
-    weak public var flowDelegate: ACKDelegate? {
+    weak public var flowDelegate: Delegate? {
         didSet {
-            ACKitDelegateHolder.instance.delegate = flowDelegate
+            DelegateHolder.instance.delegate = flowDelegate
         }
     }
     
-    weak public var uiDelegate: ACKUIDelegate? {
+    weak public var uiDelegate: UIDelegate? {
         didSet {
-            ACKitDelegateHolder.instance.uiDelegate = uiDelegate
+            DelegateHolder.instance.uiDelegate = uiDelegate
         }
     }
     

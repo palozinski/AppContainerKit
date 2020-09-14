@@ -40,11 +40,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = resolver.resolve(UIWindow.self)
         window?.makeKeyAndVisible()
         let initialViewController = SwinjectStoryboard.create(name: "Container",
-                                                              bundle: Bundle(for: ACKNavigationController.self),
+                                                              bundle: Bundle(for: NavigationController.self),
                                                               container: resolver).instantiateInitialViewController()
-        (initialViewController as? ACKNavigationController)?
+        (initialViewController as? NavigationController)?
             .flowDelegate = resolver.resolve(WindowController.self)
-        (initialViewController as? ACKNavigationController)?
+        (initialViewController as? NavigationController)?
             .uiDelegate = resolver.resolve(WindowController.self)
         window?.rootViewController = initialViewController
     }

@@ -1,11 +1,11 @@
 import UIKit
 
-final class ACKSecondaryViewContainerViewController: UIViewController {
+final class SecondaryViewContainerViewController: UIViewController {
     
     // MARK: - Properties
     
-    private var uiDelegate: ACKUIDelegate? {
-        return ACKitDelegateHolder.instance.uiDelegate
+    private var uiDelegate: UIDelegate? {
+        return DelegateHolder.instance.uiDelegate
     }
     
     // MARK: - Lifecycle
@@ -19,7 +19,7 @@ final class ACKSecondaryViewContainerViewController: UIViewController {
         guard let viewController = uiDelegate?.secondaryViewController() else {
             fatalError("You should implement secondaryViewController() method")
         }
-        (view as? ACKContainerView)?.present(child: viewController,
+        (view as? ContainerView)?.present(child: viewController,
                                              onController: self)
     }
 }

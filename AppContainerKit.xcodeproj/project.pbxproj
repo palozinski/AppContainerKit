@@ -13,16 +13,16 @@
 		DC0C60FC22083A87005A1A22 /* NavigationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0C60FB22083A87005A1A22 /* NavigationAnimation.swift */; };
 		DC39D6662200948000B56E98 /* AppContainerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DC39D6642200948000B56E98 /* AppContainerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC39D68D2200B24700B56E98 /* Container.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC39D68C2200B24700B56E98 /* Container.storyboard */; };
-		DC39D6902200B32200B56E98 /* ACKLaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D68F2200B32200B56E98 /* ACKLaunchScreenViewController.swift */; };
-		DC39D6932200B43000B56E98 /* ACKContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6922200B43000B56E98 /* ACKContainerView.swift */; };
-		DC39D6952200B53900B56E98 /* ACKPrimaryViewContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6942200B53900B56E98 /* ACKPrimaryViewContainerViewController.swift */; };
-		DC39D6972200B5AE00B56E98 /* ACKSecondaryViewContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6962200B5AE00B56E98 /* ACKSecondaryViewContainerViewController.swift */; };
+		DC39D6902200B32200B56E98 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D68F2200B32200B56E98 /* LaunchScreenViewController.swift */; };
+		DC39D6932200B43000B56E98 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6922200B43000B56E98 /* ContainerView.swift */; };
+		DC39D6952200B53900B56E98 /* PrimaryViewContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6942200B53900B56E98 /* PrimaryViewContainerViewController.swift */; };
+		DC39D6972200B5AE00B56E98 /* SecondaryViewContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6962200B5AE00B56E98 /* SecondaryViewContainerViewController.swift */; };
 		DC39D6992200B70100B56E98 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6982200B70100B56E98 /* Delegate.swift */; };
 		DC39D6A52200D33F00B56E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6A42200D33F00B56E98 /* AppDelegate.swift */; };
 		DC39D6AC2200D34000B56E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC39D6AB2200D34000B56E98 /* Assets.xcassets */; };
 		DC39D6BA2200D53A00B56E98 /* AssemblyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6B92200D53A00B56E98 /* AssemblyCenter.swift */; };
 		DC39D6BC2200D59900B56E98 /* AppDelegateAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6BB2200D59900B56E98 /* AppDelegateAssembly.swift */; };
-		DC39D6BE2200EA5B00B56E98 /* ACKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6BD2200EA5B00B56E98 /* ACKNavigationController.swift */; };
+		DC39D6BE2200EA5B00B56E98 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6BD2200EA5B00B56E98 /* NavigationController.swift */; };
 		DC39D6C02200EC3A00B56E98 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC39D6BF2200EC3A00B56E98 /* Authorization.storyboard */; };
 		DC39D6C42200EE3D00B56E98 /* UIViewController+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6C32200EE3D00B56E98 /* UIViewController+Coordinator.swift */; };
 		DC39D6C62200EF5000B56E98 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6C52200EF5000B56E98 /* NavigationCoordinator.swift */; };
@@ -36,10 +36,10 @@
 		DC39D6D72200F9A900B56E98 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6D62200F9A900B56E98 /* UserStorage.swift */; };
 		DC39D6DB2200FA2A00B56E98 /* SharedAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6DA2200FA2A00B56E98 /* SharedAssembly.swift */; };
 		DC39D6DE2200FF6200B56E98 /* SwinjectStoryboard+container.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6DD2200FF6200B56E98 /* SwinjectStoryboard+container.swift */; };
-		DC39D6E02201026300B56E98 /* ACKWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6DF2201026300B56E98 /* ACKWindowController.swift */; };
+		DC39D6E02201026300B56E98 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D6DF2201026300B56E98 /* WindowController.swift */; };
 		DC39D6E42201C73800B56E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC39D6E32201C73700B56E98 /* Main.storyboard */; };
 		DC39D6E62201C74A00B56E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC39D6E52201C74A00B56E98 /* LaunchScreen.storyboard */; };
-		DC747CEA220703520041BF63 /* ACKitDelegateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC747CE9220703520041BF63 /* ACKitDelegateHolder.swift */; };
+		DC747CEA220703520041BF63 /* DelegateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC747CE9220703520041BF63 /* DelegateHolder.swift */; };
 		DC922BA02208A91C00B1A7ED /* TransitionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC922B9F2208A91C00B1A7ED /* TransitionsUITests.swift */; };
 		DCB7D8AB2203371800538037 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DCB7D8AA2203371800538037 /* README.md */; };
 		DCCE2AC1220C55350041BB52 /* UITestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE2AC0220C55350041BB52 /* UITestController.swift */; };
@@ -70,10 +70,10 @@
 		DC39D6642200948000B56E98 /* AppContainerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppContainerKit.h; sourceTree = "<group>"; };
 		DC39D6652200948000B56E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC39D68C2200B24700B56E98 /* Container.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Container.storyboard; sourceTree = "<group>"; };
-		DC39D68F2200B32200B56E98 /* ACKLaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACKLaunchScreenViewController.swift; sourceTree = "<group>"; };
-		DC39D6922200B43000B56E98 /* ACKContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACKContainerView.swift; sourceTree = "<group>"; };
-		DC39D6942200B53900B56E98 /* ACKPrimaryViewContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACKPrimaryViewContainerViewController.swift; sourceTree = "<group>"; };
-		DC39D6962200B5AE00B56E98 /* ACKSecondaryViewContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACKSecondaryViewContainerViewController.swift; sourceTree = "<group>"; };
+		DC39D68F2200B32200B56E98 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		DC39D6922200B43000B56E98 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		DC39D6942200B53900B56E98 /* PrimaryViewContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryViewContainerViewController.swift; sourceTree = "<group>"; };
+		DC39D6962200B5AE00B56E98 /* SecondaryViewContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewContainerViewController.swift; sourceTree = "<group>"; };
 		DC39D6982200B70100B56E98 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
 		DC39D6A22200D33F00B56E98 /* AppContainerKitDISwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppContainerKitDISwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC39D6A42200D33F00B56E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		DC39D6B02200D34000B56E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC39D6B92200D53A00B56E98 /* AssemblyCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyCenter.swift; sourceTree = "<group>"; };
 		DC39D6BB2200D59900B56E98 /* AppDelegateAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateAssembly.swift; sourceTree = "<group>"; };
-		DC39D6BD2200EA5B00B56E98 /* ACKNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACKNavigationController.swift; sourceTree = "<group>"; };
+		DC39D6BD2200EA5B00B56E98 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		DC39D6BF2200EC3A00B56E98 /* Authorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
 		DC39D6C32200EE3D00B56E98 /* UIViewController+Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Coordinator.swift"; sourceTree = "<group>"; };
 		DC39D6C52200EF5000B56E98 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
@@ -95,10 +95,10 @@
 		DC39D6D62200F9A900B56E98 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 		DC39D6DA2200FA2A00B56E98 /* SharedAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAssembly.swift; sourceTree = "<group>"; };
 		DC39D6DD2200FF6200B56E98 /* SwinjectStoryboard+container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+container.swift"; sourceTree = "<group>"; };
-		DC39D6DF2201026300B56E98 /* ACKWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACKWindowController.swift; sourceTree = "<group>"; };
+		DC39D6DF2201026300B56E98 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		DC39D6E32201C73700B56E98 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DC39D6E52201C74A00B56E98 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC747CE9220703520041BF63 /* ACKitDelegateHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACKitDelegateHolder.swift; sourceTree = "<group>"; };
+		DC747CE9220703520041BF63 /* DelegateHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateHolder.swift; sourceTree = "<group>"; };
 		DC922B9D2208A91C00B1A7ED /* AppContainerKitDISwiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppContainerKitDISwiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC922B9F2208A91C00B1A7ED /* TransitionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsUITests.swift; sourceTree = "<group>"; };
 		DC922BA12208A91C00B1A7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -211,10 +211,10 @@
 		DC39D68E2200B2EA00B56E98 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DC39D68F2200B32200B56E98 /* ACKLaunchScreenViewController.swift */,
-				DC39D6942200B53900B56E98 /* ACKPrimaryViewContainerViewController.swift */,
-				DC39D6962200B5AE00B56E98 /* ACKSecondaryViewContainerViewController.swift */,
-				DC39D6BD2200EA5B00B56E98 /* ACKNavigationController.swift */,
+				DC39D68F2200B32200B56E98 /* LaunchScreenViewController.swift */,
+				DC39D6942200B53900B56E98 /* PrimaryViewContainerViewController.swift */,
+				DC39D6962200B5AE00B56E98 /* SecondaryViewContainerViewController.swift */,
+				DC39D6BD2200EA5B00B56E98 /* NavigationController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 		DC39D6912200B40A00B56E98 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DC39D6922200B43000B56E98 /* ACKContainerView.swift */,
+				DC39D6922200B43000B56E98 /* ContainerView.swift */,
 				DC39D6C52200EF5000B56E98 /* NavigationCoordinator.swift */,
 				DC39D6C72200EF6F00B56E98 /* FadeTransitionAnimator.swift */,
 				DC0C60FB22083A87005A1A22 /* NavigationAnimation.swift */,
@@ -233,8 +233,8 @@
 		DC39D69A2200B76E00B56E98 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DC747CE9220703520041BF63 /* ACKitDelegateHolder.swift */,
-				DC39D6DF2201026300B56E98 /* ACKWindowController.swift */,
+				DC747CE9220703520041BF63 /* DelegateHolder.swift */,
+				DC39D6DF2201026300B56E98 /* WindowController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -590,19 +590,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC39D6E02201026300B56E98 /* ACKWindowController.swift in Sources */,
-				DC747CEA220703520041BF63 /* ACKitDelegateHolder.swift in Sources */,
-				DC39D6902200B32200B56E98 /* ACKLaunchScreenViewController.swift in Sources */,
-				DC39D6932200B43000B56E98 /* ACKContainerView.swift in Sources */,
+				DC39D6E02201026300B56E98 /* WindowController.swift in Sources */,
+				DC747CEA220703520041BF63 /* DelegateHolder.swift in Sources */,
+				DC39D6902200B32200B56E98 /* LaunchScreenViewController.swift in Sources */,
+				DC39D6932200B43000B56E98 /* ContainerView.swift in Sources */,
 				DC0C60FC22083A87005A1A22 /* NavigationAnimation.swift in Sources */,
 				DC0C60FA22083A3B005A1A22 /* CoordinatorContainer.swift in Sources */,
 				DC39D6C82200EF6F00B56E98 /* FadeTransitionAnimator.swift in Sources */,
-				DC39D6BE2200EA5B00B56E98 /* ACKNavigationController.swift in Sources */,
+				DC39D6BE2200EA5B00B56E98 /* NavigationController.swift in Sources */,
 				DC39D6C42200EE3D00B56E98 /* UIViewController+Coordinator.swift in Sources */,
-				DC39D6952200B53900B56E98 /* ACKPrimaryViewContainerViewController.swift in Sources */,
+				DC39D6952200B53900B56E98 /* PrimaryViewContainerViewController.swift in Sources */,
 				DC39D6992200B70100B56E98 /* Delegate.swift in Sources */,
 				DC39D6C62200EF5000B56E98 /* NavigationCoordinator.swift in Sources */,
-				DC39D6972200B5AE00B56E98 /* ACKSecondaryViewContainerViewController.swift in Sources */,
+				DC39D6972200B5AE00B56E98 /* SecondaryViewContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

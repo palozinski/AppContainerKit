@@ -1,6 +1,6 @@
 import UIKit
 
-class ACKContainerView: UIView {
+class ContainerView: UIView {
     
     // MARK: - Properties
     

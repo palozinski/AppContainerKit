@@ -1,6 +1,6 @@
 import UIKit
 
-final class ACKLaunchScreenViewController: UIViewController {
+final class LaunchScreenViewController: UIViewController {
     
     private enum ViewState: String {
         case primary
@@ -9,12 +9,12 @@ final class ACKLaunchScreenViewController: UIViewController {
     
     // MARK: - Properties
     
-    private var delegate: ACKDelegate? {
-        return ACKitDelegateHolder.instance.delegate
+    private var delegate: Delegate? {
+        return DelegateHolder.instance.delegate
     }
     
-    private var uiDelegat: ACKUIDelegate? {
-        return ACKitDelegateHolder.instance.uiDelegate
+    private var uiDelegat: UIDelegate? {
+        return DelegateHolder.instance.uiDelegate
     }
     
     // MARK: - Lifecycle
@@ -38,7 +38,7 @@ final class ACKLaunchScreenViewController: UIViewController {
         guard let launchScreenViewController = uiDelegat?.launchScreenViewController() else {
             return
         }
-        (view as? ACKContainerView)?.present(child: launchScreenViewController,
-                                             onController: self)
+        (view as? ContainerView)?.present(child: launchScreenViewController,
+                                          onController: self)
     }
 }

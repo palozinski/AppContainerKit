@@ -1,5 +1,5 @@
 PODS:
-  - AppContainerKit (0.1.2)
+  - AppContainerKit (0.1.3)
   - MarkdownView (1.6.0)
   - SwiftLint (0.40.2)
   - Swinject (2.6.2)
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "/Users/pawellozinski/code/AppContainerKit"
 
 SPEC CHECKSUMS:
-  AppContainerKit: 31ceceb28c42ee471fe021d8cccd9d4a63a0acd1
+  AppContainerKit: dfc6d6943e7242ecd1e1894c1a05019d9426ba0f
   MarkdownView: 25c1c2d7ff9706624a575556296e188be3dd3f6b
   SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
   Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1

@@ -1,11 +1,11 @@
 import UIKit
 
-final class ACKPrimaryViewContainerViewController: UIViewController {
+final class PrimaryViewContainerViewController: UIViewController {
     
     // MARK: - Properties
     
-    private var uiDelegate: ACKUIDelegate? {
-        return ACKitDelegateHolder.instance.uiDelegate
+    private var uiDelegate: UIDelegate? {
+        return DelegateHolder.instance.uiDelegate
     }
     
     // MARK: - Lifecycle
@@ -19,7 +19,7 @@ final class ACKPrimaryViewContainerViewController: UIViewController {
         guard let viewController = uiDelegate?.primaryViewController() else {
             fatalError("You should implement primaryViewController() method")
         }
-        (view as? ACKContainerView)?.present(child: viewController,
+        (view as? ContainerView)?.present(child: viewController,
                                              onController: self)
     }
 }
