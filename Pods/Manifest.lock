@@ -5,8 +5,8 @@ PODS:
   - Swinject (2.6.2)
   - SwinjectAutoregistration (2.6.1):
     - Swinject (~> 2.6)
-  - SwinjectStoryboard (2.1.0):
-    - Swinject (~> 2.5)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
 
 DEPENDENCIES:
   - AppContainerKit (from `/Users/pawellozinski/code/AppContainerKit`)
@@ -34,7 +34,7 @@ SPEC CHECKSUMS:
   SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
   Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1
   SwinjectAutoregistration: d0de7e48db3601b8b130f2f84e5a8399e0224135
-  SwinjectStoryboard: 688f096033103e66ffcf6ca678211acd7d7be505
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
 
 PODFILE CHECKSUM: 947fe543d0a1e0195a0589a0f46f9bff37c0a05e
 
