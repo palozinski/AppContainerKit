@@ -8,12 +8,12 @@ final class UserStorage {
     }()
     
     var isLogged: Bool {
+        get {
+            return defaults.bool(forKey: key)
+        }
         set {
             defaults.set(newValue, forKey: key)
             defaults.synchronize()
-        }
-        get {
-            return defaults.bool(forKey: key)
         }
     }
 }
